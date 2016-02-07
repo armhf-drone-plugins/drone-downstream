@@ -25,7 +25,6 @@ publish:
     email: $$DOCKER_EMAIL
     password: $$DOCKER_PASSWORD
     repo: armhfplugins/drone-downstream
-    storage_driver: overlay
     when:
       repo: armhf-drone-plugins/drone-downstream
       branch: master
